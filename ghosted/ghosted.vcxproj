@@ -75,6 +75,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;C:\Users\h!\source\repos\ghosted\detours;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Users\h!\source\repos\ghosted\detours;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -153,7 +155,10 @@
   <ItemGroup>
     <ClInclude Include="framework.h" />
     <ClInclude Include="ghosts.h" />
+    <ClInclude Include="dvars.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Reversed\level_locals_t.h" />
+    <ClInclude Include="Reversed\playerState_s.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />

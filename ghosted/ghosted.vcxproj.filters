@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Reversed Headers">
+      <UniqueIdentifier>{39c7087d-91a6-4958-8eda-79286eed3c67}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -23,6 +26,15 @@
     </ClInclude>
     <ClInclude Include="ghosts.h">
       <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dvars.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Reversed\playerState_s.h">
+      <Filter>Source Files\Reversed Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Reversed\level_locals_t.h">
+      <Filter>Source Files\Reversed Headers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
